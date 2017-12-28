@@ -3,7 +3,7 @@ reCaptcha v2 plugin for MyBB
 
 **Caution!** This is developement version. In this version (1.0b) it should works with new threads and new replies only!
 
-This plugin allows you to send information about new threads and new posts to your Discord channel using Webhooks.
+This plugin provide a way to check if user posting new thread or reply is a human or not.
 
 Instalation:
 ============
