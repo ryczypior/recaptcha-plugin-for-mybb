@@ -39,5 +39,3 @@ $l['recaptcha_plugin_posts_enabled'] = 'Enable for new posts';
 $l['recaptcha_plugin_posts_enabled_description'] = 'Turns on reCaptcha check for new thread posts (including fast reply)';
 $l['recaptcha_plugin_pm_enabled'] = 'Enable for PM';
 $l['recaptcha_plugin_pm_enabled_description'] = 'Turns on reCaptcha check for private messages';
-$l['recaptcha_plugin_register_enabled'] = 'Enable for user registration';
-$l['recaptcha_plugin_register_enabled_description'] = 'Turns on reCaptcha check in registration form';

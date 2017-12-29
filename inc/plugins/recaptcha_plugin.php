@@ -98,10 +98,13 @@ function recaptcha_plugin_install() {
             'description' => $db->escape_string($lang->recaptcha_plugin_usergroups_description),
             'optionscode' => 'groupselect',
             'isdefault' => 1,
-            'value' => '',
+            'value' => '',        
+
             'disporder' =>$position++,
-            'gid' => $gid,
-        ),
+            'gid' => $gid,        
+
+        ),        
+
         array(
             'name' => 'recaptcha_plugin_threads_enabled',
             'title' => $db->escape_string($lang->recaptcha_plugin_threads_enabled),
@@ -126,16 +129,6 @@ function recaptcha_plugin_install() {
             'name' => 'recaptcha_plugin_pm_enabled',
             'title' => $db->escape_string($lang->recaptcha_plugin_pm_enabled),
             'description' => $db->escape_string($lang->recaptcha_plugin_pm_enabled_description),
-            'optionscode' => 'yesno',
-            'value' => '1',
-            'isdefault' => 1,
-            'disporder' =>$position++,
-            'gid' => $gid,
-        ),
-        array(
-            'name' => 'recaptcha_plugin_register_enabled',
-            'title' => $db->escape_string($lang->recaptcha_plugin_register_enabled),
-            'description' => $db->escape_string($lang->recaptcha_plugin_register_enabled_description),
             'optionscode' => 'yesno',
             'value' => '1',
             'isdefault' => 1,
